@@ -42,6 +42,7 @@
 
             .content {
                 text-align: center;
+                font-family: 'Nunito', "Droid Sans";
             }
 
             .title {
