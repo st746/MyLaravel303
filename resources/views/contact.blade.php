@@ -50,10 +50,10 @@
 
         .links > a {
             color: #e2f0fb;
-            padding: 0 25px;
+            padding: 0 10px;
             font-size: 15px;
             font-weight: 800;
-            letter-spacing: .1rem;
+            letter-spacing: .0.5rem;
             text-decoration: none;
             text-transform: uppercase;
         }
@@ -64,7 +64,11 @@
     </style>
 </head>
 <body>
+<div class="links">
+    <a href="/Home">Home</a>
+    <a href="/About">About me</a>
 
+</div>
 <div class="flex-center position-ref full-height">
 
     <div class="content">

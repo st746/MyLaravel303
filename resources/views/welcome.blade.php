@@ -64,36 +64,30 @@
             }
         </style>
     </head>
+
+
     <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
 
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
-            <div class="content">
+              <div class="content">
                 <div class="title m-b-md" >
                     My First Laravel Web Site
                 </div>
 
                 <div class="links">
+                    <a href="/Home">Home</a>
                     <a href="https://bootstrapheroku303.herokuapp.com">My First BootStrap Site</a>
                     <a href="https://csvtohtml303.herokuapp.com">CSV To HTML Data Table</a>
                     <a href="https://github.com"> My GitHub Account </a>
                     <a href="/About">About me</a>
                     <a href="/Contact">Contact me</a>
-
                 </div>
-            </div>
+              </div>
         </div>
+
+
+
+
+
+
     </body>
 </html>

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>About Me</title>
+    <title>Home Page</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -12,8 +12,8 @@
     <!-- Styles -->
     <style>
         html, body {
-            background-color: #495057;
-            color: #202326;
+            background-color: #343a40;
+            color: #e9605c;
             font-family: 'Nunito', sans-serif;
             font-weight: 800;
             height: 500vh;
@@ -21,7 +21,7 @@
         }
 
         .full-height {
-            height: 60vh;
+            height: 30vh;
         }
 
         .flex-center {
@@ -31,29 +31,30 @@
         }
 
         .position-ref {
-            position:-ms-device-fixed;
+            position: relative;
         }
 
         .top-right {
             position: absolute;
             right: 10px;
-            top: 14px;
+            top: 28px;
         }
 
         .content {
             text-align: center;
+            font-family: 'Nunito', "Droid Sans";
         }
 
         .title {
-            font-size: 25px;
+            font-size: 84px;
         }
 
         .links > a {
             color: #e2f0fb;
-            padding: 0 10px;
+            padding: 0 25px;
             font-size: 15px;
             font-weight: 800;
-            letter-spacing: .0.5rem;
+            letter-spacing: .1rem;
             text-decoration: none;
             text-transform: uppercase;
         }
@@ -65,23 +66,21 @@
 </head>
 <body>
 
-<div class="links">
-
-    <a href="/Home">Home</a>
-    <a href="/Contact">Contact me</a>
-
-</div>
-
-<div class="flex-center position-ref full-height">
-
     <div class="content">
         <div class="title m-b-md" >
-            Hello Professor,
+            My First Laravel Web Site
+        </div>
 
-            This is Shraddha Thakkar. This is my second semster in NJIT. I am business and information system major. Currently,
-            I am working as lead teller at Wells Fargo bank. I am looking forward to finish my major and step into real world with knowledge within my field.
-            Looking forward to learn lot from you from this class.
+        <div class="links">
+
+            <a href="https://bootstrapheroku303.herokuapp.com">My First BootStrap Site</a>
+            <a href="https://csvtohtml303.herokuapp.com">CSV To HTML Data Table</a>
+            <a href="https://github.com"> My GitHub Account </a>
+            <a href="/About">About me</a>
+            <a href="/Contact">Contact me</a>
+
         </div>
     </div>
+</div>
 </body>
 </html>
