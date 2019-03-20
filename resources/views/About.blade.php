@@ -75,6 +75,6 @@
             I am working as lead teller at Wells Fargo bank. I am looking forward to finish my major and step into real world with knowledge within my field.
             Looking forward to learn lot from you from this class.
         </div>
-</div>
+    </div>
 </body>
 </html>

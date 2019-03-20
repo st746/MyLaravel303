@@ -12,8 +12,8 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #495057;
-                color: #202326;
+                background-color: #343a40;
+                color: #e9605c;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 800;
                 height: 500vh;
@@ -88,7 +88,9 @@
                     <a href="https://bootstrapheroku303.herokuapp.com">My First BootStrap Site</a>
                     <a href="https://csvtohtml303.herokuapp.com">CSV To HTML Data Table</a>
                     <a href="https://github.com"> My GitHub Account </a>
-                    <a href="http://localhost:8000/new">About me</a>
+                    <a href="/About">About me</a>
+                    <a href="/Contact">Contact me</a>
+
                 </div>
             </div>
         </div>
