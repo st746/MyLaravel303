@@ -53,9 +53,10 @@
             padding: 0 10px;
             font-size: 15px;
             font-weight: 800;
-            letter-spacing: .0.5rem;
+            letter-spacing: .4rem;
             text-decoration: none;
             text-transform: uppercase;
+
         }
 
         .m-b-md {

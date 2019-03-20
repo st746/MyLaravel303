@@ -52,22 +52,22 @@
             .links > a {
                 color: #e2f0fb;
                 padding: 0 25px;
-                font-size: 15px;
-                font-weight: 800;
-                letter-spacing: .1rem;
+                font-size: 12px;
+                font-weight: 900;
+                letter-spacing: .3rem;
                 text-decoration: none;
                 text-transform: uppercase;
             }
 
             .m-b-md {
-                margin-bottom: 30px;
+                margin-bottom: 40px;
+                margin-top: 50px;
             }
         </style>
     </head>
 
 
     <body>
-
               <div class="content">
                 <div class="title m-b-md" >
                     My First Laravel Web Site
