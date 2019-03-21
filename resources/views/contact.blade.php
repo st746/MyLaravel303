@@ -69,6 +69,13 @@
     <a href="/about">About me</a>
 
 </div>
+<h1>Contact US</h1>
+<form>
+    <input type="text name="email" placeholder="email"><br>
+    <input type="text name="subject" placeholder="subject"><br>
+    <textarea name="message" placeholder="Your message"></textarea>
+    <input type="submit" name="submit" value="send">
+</form>
 <div class="flex-center position-ref full-height">
 
     <div class="content">
@@ -78,5 +85,6 @@
                <div>Shradhha Thakkar </div>
         </div>
     </div>
+
 </body>
 </html>
