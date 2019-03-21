@@ -65,8 +65,8 @@
 </head>
 <body>
 <div class="links">
-    <a href="/Home">Home</a>
-    <a href="/About">About me</a>
+    <a href="/home">Home</a>
+    <a href="/about">About me</a>
 
 </div>
 <div class="flex-center position-ref full-height">

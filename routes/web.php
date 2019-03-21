@@ -15,14 +15,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/About', function () {
-    return view("About");
+Route::get('/about', function () {
+    return view("about");
 });
 
-Route::get('/Contact', function () {
-    return view("Contact");
+Route::get('/contact', function () {
+    return view("contact");
 });
-Route::get('/Home', function () {
-    return view("Home");
+Route::get('/home', function () {
+    return view("home");
 });
 

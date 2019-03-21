@@ -68,8 +68,8 @@
 
 <div class="links">
 
-    <a href="/Home">Home</a>
-    <a href="/Contact">Contact me</a>
+    <a href="/home">Home</a>
+    <a href="/contact">Contact me</a>
 
 </div>
 
